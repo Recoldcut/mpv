@@ -30,6 +30,8 @@ Interface changes
 ::
 
  --- mpv 0.40.0 ---
+ --- mpv 0.39.0 solid ---
+    - add `--dark-themes` option
  --- mpv 0.39.0 ---
     - turn `--cover-art-whitelist` into a list option
     - reserve `user-data/osc` and `user-data/mpv` sub-paths for internal use

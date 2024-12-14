@@ -17,6 +17,8 @@ typedef struct mp_vo_opts {
     bool fullscreen;
     bool border;
     bool title_bar;
+    // RECOLDCUT// the new configuration option "dark-themes".
+    bool dark_themes;
     bool all_workspaces;
     bool window_minimized;
     bool window_maximized;

@@ -123,6 +123,8 @@ static const m_option_t mp_vo_opt_list[] = {
         {"desktop", -3}), M_RANGE(0, INT_MAX)},
     {"border", OPT_BOOL(border)},
     {"title-bar", OPT_BOOL(title_bar)},
+    // RECOLDCUT// Define the new configuration option "dark-themes" in mpv's option parsing system.
+    {"dark-themes", OPT_BOOL(dark_themes)},
     {"on-all-workspaces", OPT_BOOL(all_workspaces)},
     {"geometry", OPT_GEOMETRY(geometry), .force_update = true},
     {"autofit", OPT_SIZE_BOX(autofit), .force_update = true},
@@ -257,6 +259,8 @@ const struct m_sub_options vo_sub_opts = {
         .show_in_taskbar = true,
         .border = true,
         .title_bar = true,
+        // RECOLDCUT// the new configuration option "dark-themes" default value.
+        .dark_themes = true,
         .appid = "mpv",
         .WinID = -1,
         .window_scale = 1.0,

@@ -1296,14 +1296,19 @@ static void reinit_window_state(struct vo_w32_state *w32)
 // UxTheme API to check if dark mode should be applied and while at it enable it
 // fully. Ideally this function should only call the DwmSetWindowAttribute(),
 // but it just doesn't work as documented.
+
+// RECOLDCUT// Use the new "dark-themes" option to determine the theme mode
+
 static void update_dark_mode(const struct vo_w32_state *w32)
 {
     if (w32->api.pSetPreferredAppMode)
         w32->api.pSetPreferredAppMode(1); // allow dark mode
 
     // if pShouldAppsUseDarkMode is not available, just assume it to be true
-    const BOOL use_dark_mode = !is_high_contrast() && (!w32->api.pShouldAppsUseDarkMode ||
-                                                       w32->api.pShouldAppsUseDarkMode());
+    // RECOLDCUT// Add judgment conditions "dark-themes" option
+    const BOOL use_dark_mode = w32->opts->dark_themes || 
+                                (!is_high_contrast() && (!w32->api.pShouldAppsUseDarkMode ||
+                                                       w32->api.pShouldAppsUseDarkMode()));
 
     SetWindowTheme(w32->window, use_dark_mode ? L"DarkMode_Explorer" : L"", NULL);
 

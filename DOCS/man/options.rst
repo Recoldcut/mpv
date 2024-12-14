@@ -3329,6 +3329,11 @@ Window
     use ``--title-bar=no`` to hide the title bar. The ``--border`` option takes
     precedence.
 
+``--dark-themes=<yes|no>``
+    (Windows only)
+    Enable dark mode for mpv explicitly. Since this is on by default,
+    use ``--dark-themes=no`` to follow Windows settings and update dark mode state. 
+    
 ``--on-all-workspaces``
     (X11 and macOS only)
     Show the video window on all virtual desktops.
