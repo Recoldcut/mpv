@@ -1,68 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
-   viewBox="0 0 63.999999 63.999999"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="mpv-symbolic.svg">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="5.3710484"
-     inkscape:cx="19.094402"
-     inkscape:cy="44.778512"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-988.3622)">
-    <path
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.10161044;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99215686"
-       d="M 32.582031 2.9101562 A 27.949194 27.949194 0 0 0 4.6328125 30.859375 A 27.949194 27.949194 0 0 0 32.582031 58.808594 A 27.949194 27.949194 0 0 0 60.53125 30.859375 A 27.949194 27.949194 0 0 0 32.582031 2.9101562 z M 33.308594 4.0546875 A 25.950588 25.950588 0 0 1 59.259766 30.005859 A 25.950588 25.950588 0 0 1 33.308594 55.955078 A 25.950588 25.950588 0 0 1 7.359375 30.005859 A 25.950588 25.950588 0 0 1 33.308594 4.0546875 z "
-       transform="translate(0,988.3622)"
-       id="path4380" />
-    <path
-       id="path4412"
-       transform="translate(0,988.3622)"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 32.214844,18.128906 a 12.848894,12.848894 0 0 0 -12.84961,12.84961 12.848894,12.848894 0 0 0 12.84961,12.847656 12.848894,12.848894 0 0 0 12.849609,-12.847656 12.848894,12.848894 0 0 0 -12.849609,-12.84961 z m -3.257813,7.078125 9.214844,5.583985 -9.214844,5.865234 0,-11.449219 z M 54.806488,28.2928 a 20,20 0 0 1 -20,20 20,20 0 0 1 -20,-20 20,20 0 0 1 20,-19.99997 20,20 0 0 1 20,19.99997 z" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="mpv_x5F_IDR_x5F_MAINFRAME" xmlns="http://www.w3.org/2000/svg" width="64" height="64" version="1.1" viewBox="0 0 64 64">
+  <!-- mpv_solid main icon by https://github.com/recoldcut  -->
+  <g id="mpv-symbolic">
+    <path id="Path_x5F_3" d="M7.68,54.12l38.32-22.13.59-.44,10.06,5.81-.41.54.08.05c1.64.95,1.64,3.31,0,4.25l-34.63,20c-2.28,1.32-5.09,1.32-7.37,0l-6.63-3.83c-1.64-.95-1.64-3.31,0-4.25Z"/>
+    <path id="Path_x5F_2" d="M55.58,42.63l.37-.21c1.8-1.04,1.8-3.64,0-4.68L17.99,15.83l-.49-.14V4.11s.5-.08.5-.08v-.11c0-1.89,2.05-3.07,3.68-2.13l34.63,20c2.28,1.32,3.68,3.75,3.68,6.38v7.66c0,2.63-1.4,5.06-3.68,6.38l-.74.43"/>
+    <path id="Path_x5F_1" d="M22.42,2.22l-.37-.21c-1.8-1.04-4.05.26-4.05,2.34v32.08c0,2.63-1.4,5.06-3.68,6.38l-6.63,3.83c-1.64.95-3.68-.24-3.68-2.13V12c0-2.63,1.4-5.06,3.68-6.38l6.63-3.83c2.28-1.32,5.09-1.32,7.37,0l.74.43"/>
   </g>
 </svg>
